@@ -3,126 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasmin Kate P. Sasutona | Profile</title>
+    <title>Jasmin Kate | Profile</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Sidebar -->
-    <nav class="sidebar">
-        <div class="sidebar-header">
-            <h1 class="logo">JAZZIK8</h1>
-            <p class="tagline">Web Design • 2024</p>
+
+    <nav class="nav">
+        <div class="nav-brand">
+            <h1>Jasmin Kate</h1>
+            <p>BSIT Student • Web Design</p>
         </div>
-        
-        <div class="nav-options">
-            <a href="#dashboard" class="nav-item active">
-                <span class="nav-icon">🏠</span>
-                <span class="nav-text">Dashboard</span>
-            </a>
-            <a href="#about" class="nav-item">
-                <span class="nav-icon">👤</span>
-                <span class="nav-text">About Me</span>
-            </a>
-            <a href="#contact" class="nav-item">
-                <span class="nav-icon">📞</span>
-                <span class="nav-text">Contact Info</span>
-            </a>
-            <a href="#address" class="nav-item">
-                <span class="nav-icon">📍</span>
-                <span class="nav-text">Address</span>
-            </a>
-        </div>
-        
-        <div class="sidebar-footer">
-            <p class="quote">"Simplicity is the ultimate sophistication"</p>
+        <div class="nav-links">
+            <a href="#intro" class="nav-link active">Intro</a>
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#address" class="nav-link">Address</a>
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Dashboard Section -->
-        <section id="dashboard" class="content-section">
-            <header class="content-header">
-                <h2>Dashboard</h2>
-                <p class="subtitle">Welcome to my personal profile</p>
-            </header>
-            
-            <div class="dashboard-grid">
-                <!-- Profile Card -->
-                <div class="profile-card">
-                    <div class="profile-image">
-                        <img src="me.jpg" alt="Profile Picture" class="profile-pic">
+    <main class="main">
+        <!-- Intro Section -->
+        <section id="intro" class="section active">
+            <div class="intro-content">
+                <div class="intro-left">
+                    <img src="me.jpg" alt="Profile Picture" class="intro-pic">
+                </div>
+                <div class="intro-right">
+                    <h2>Hello, I'm Jasmin Kate</h2>
+                    <p class="intro-quote">"The only way to do great work is to love what you do."</p>
+                    <div class="intro-text">
+                        <p>I'm a passionate BS Information Technology student with a keen interest in web development and technology. I believe in continuous learning and growth, always seeking new challenges and opportunities to expand my skills.</p>
+                        <p>When I'm not coding, you can find me exploring creative pursuits that fuel my imagination and inspire my work.</p>
                     </div>
-                    <div class="profile-details">
-                        <h3>Jasmin Kate P. Sasutona</h3>
-                        <p class="role">BS Information Technology Student</p>
-                        <div class="quick-info">
-                            <span class="info-badge">BSIT-2209</span>
-                            <span class="info-badge">ID: 240102249</span>
+                    <div class="intro-details">
+                        <span class="detail-item">BSIT-2209</span>
+                        <span class="detail-item">ID: 240102249</span>
+                        <span class="detail-item">IT Student</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p class="section-sub">Personal Information & Details</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card">
+                    <h3 class="card-title">Personal Information</h3>
+                    <ul class="info-list">
+                        <li><strong>Full Name:</strong> Jasmin Kate P. Sasutona</li>
+                        <li><strong>Birthday:</strong> March 28, 2006</li>
+                        <li><strong>Gender:</strong> Female</li>
+                        <li><strong>Status:</strong> Single</li>
+                    </ul>
+                </div>
+
+                <div class="about-card">
+                    <h3 class="card-title">Education</h3>
+                    <ul class="info-list">
+                        <li><strong>Course:</strong> BS Information Technology</li>
+                        <li><strong>Section:</strong> BSIT-2209</li>
+                        <li><strong>Student ID:</strong> 240102249</li>
+                    </ul>
+                </div>
+
+                <div class="about-card full">
+                    <h3 class="card-title">Hobbies & Interests</h3>
+                    <div class="hobbies-list">
+                        <div class="hobby">
+                            <span class="hobby-icon">🎵</span>
+                            <div class="hobby-text">
+                                <h4>Listening to Music</h4>
+                                <p>Enjoying various music genres</p>
+                            </div>
+                        </div>
+                        <div class="hobby">
+                            <span class="hobby-icon">🎬</span>
+                            <div class="hobby-text">
+                                <h4>Watching Anime</h4>
+                                <p>Exploring anime series and movies</p>
+                            </div>
+                        </div>
+                        <div class="hobby">
+                            <span class="hobby-icon">📚</span>
+                            <div class="hobby-text">
+                                <h4>Reading Comics/LN</h4>
+                                <p>Engaging with comics and light novels</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            
+            <a href="#intro" class="back-btn">← Back to Intro</a>
+        </section>
 
-                <!-- Quick Access Cards -->
-                <div class="card feature-card">
-                    <h3>About Me</h3>
-                    <p>Learn more about my background, hobbies, and personal details.</p>
-                    <a href="#about" class="view-btn">View Details</a>
+        <!-- Contact Info Section -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2>Contact Information</h2>
+                <p class="section-sub">Ways to Get in Touch</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-details">
+                        <h3>Email Address</h3>
+                        <p class="contact-info">jasminkatesasutona20@gmail.com</p>
+                        <a href="mailto:jasminkatesasutona20@gmail.com" class="contact-link">Send Email</a>
+                    </div>
                 </div>
 
-                <div class="card feature-card">
-                    <h3>Contact Info</h3>
-                    <p>Get in touch with me through various channels.</p>
-                    <a href="#contact" class="view-btn">View Contacts</a>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-details">
+                        <h3>Phone Number</h3>
+                        <p class="contact-info">09319626154</p>
+                        <a href="tel:09319626154" class="contact-link">Call Now</a>
+                    </div>
                 </div>
 
-                <div class="card feature-card">
-                    <h3>Address</h3>
-                    <p>Find my residential location and address details.</p>
-                    <a href="#address" class="view-btn">View Address</a>
-                <a href="#dashboard" class="back-btn">← Back to Dashboard</a>
-                <a href="#dashboard" class="back-btn">← Back to Dashboard</a>
-                <a href="#dashboard" class="back-btn">← Back to Dashboard</a>
-                    
-    <style>
-        .content-section {
-            display: none;
-        }
+                <div class="contact-item">
+                    <div class="contact-icon">💻</div>
+                    <div class="contact-details">
+                        <h3>GitHub Profile</h3>
+                        <p class="contact-info">@JAZZIK8</p>
+                        <a href="https://github.com/JAZZIK8" class="contact-link">Visit GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#intro" class="back-btn">← Back to Intro</a>
+        </section>
 
-        #dashboard:target,
-        #dashboard:target ~ #dashboard,
-        #dashboard {
-            display: block;
-        }
+        <section id="address" class="section">
+            <div class="section-header">
+                <h2>Address</h2>
+                <p class="section-sub">Residential Location</p>
+            </div>
+            
+            <div class="address-content">
+                <div class="address-card">
+                    <div class="address-icon">📍</div>
+                    <div class="address-details">
+                        <h3>Current Residence</h3>
+                        <p class="full-address">119 P. Dela Cruz Street, San Bartolome, Novaliches, Quezon City</p>
+                        
+                        <div class="address-breakdown">
+                            <div class="address-line">
+                                <span class="address-label">Street:</span>
+                                <span class="address-value">P. Dela Cruz Street</span>
+                            </div>
+                            <div class="address-line">
+                                <span class="address-label">Barangay:</span>
+                                <span class="address-value">San Bartolome</span>
+                            </div>
+                            <div class="address-line">
+                                <span class="address-label">District:</span>
+                                <span class="address-value">Novaliches</span>
+                            </div>
+                            <div class="address-line">
+                                <span class="address-label">City:</span>
+                                <span class="address-value">Quezon City</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#intro" class="back-btn">← Back to Intro</a>
+        </section>
+    </main>
 
-        #about:target,
-        #contact:target,
-        #address:target {
-            display: block;
-        }
-        
-        #about:target ~ #dashboard,
-        #contact:target ~ #dashboard,
-        #address:target ~ #dashboard,
-        #dashboard:target ~ #about,
-        #dashboard:target ~ #contact,
-        #dashboard:target ~ #address,
-        #about:target ~ #contact,
-        #about:target ~ #address,
-        #contact:target ~ #about,
-        #contact:target ~ #address,
-        #address:target ~ #about,
-        #address:target ~ #contact {
-            display: none;
-        }
-
-        #dashboard:target ~ * .nav-item[href="#dashboard"],
-        #about:target ~ * .nav-item[href="#about"],
-        #contact:target ~ * .nav-item[href="#contact"],
-        #address:target ~ * .nav-item[href="#address"] {
-            background: linear-gradient(135deg, rgba(255, 77, 141, 0.2), rgba(157, 78, 221, 0.2));
-            border-color: #ff4d8d;
-        }
-    </style>
+    <footer class="footer">
+        <p>© 2024 Jasmin Kate P. Sasutona. All rights reserved.</p>
+    </footer>
 </body>
 </html>
