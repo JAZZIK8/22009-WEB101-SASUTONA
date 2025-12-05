@@ -15,22 +15,22 @@
         </div>
         
         <div class="nav-options">
-            <div class="nav-item active" data-section="dashboard">
+            <a href="#dashboard" class="nav-item active">
                 <span class="nav-icon">🏠</span>
                 <span class="nav-text">Dashboard</span>
-            </div>
-            <div class="nav-item" data-section="about">
+            </a>
+            <a href="#about" class="nav-item">
                 <span class="nav-icon">👤</span>
                 <span class="nav-text">About Me</span>
-            </div>
-            <div class="nav-item" data-section="contact">
+            </a>
+            <a href="#contact" class="nav-item">
                 <span class="nav-icon">📞</span>
                 <span class="nav-text">Contact Info</span>
-            </div>
-            <div class="nav-item" data-section="address">
+            </a>
+            <a href="#address" class="nav-item">
                 <span class="nav-icon">📍</span>
                 <span class="nav-text">Address</span>
-            </div>
+            </a>
         </div>
         
         <div class="sidebar-footer">
@@ -41,7 +41,7 @@
     <!-- Main Content -->
     <main class="main-content">
         <!-- Dashboard Section -->
-        <section id="dashboard" class="content-section active">
+        <section id="dashboard" class="content-section">
             <header class="content-header">
                 <h2>Dashboard</h2>
                 <p class="subtitle">Welcome to my personal profile</p>
@@ -67,179 +67,62 @@
                 <div class="card feature-card">
                     <h3>About Me</h3>
                     <p>Learn more about my background, hobbies, and personal details.</p>
-                    <button class="view-btn" data-section="about">View Details</button>
+                    <a href="#about" class="view-btn">View Details</a>
                 </div>
 
                 <div class="card feature-card">
                     <h3>Contact Info</h3>
                     <p>Get in touch with me through various channels.</p>
-                    <button class="view-btn" data-section="contact">View Contacts</button>
+                    <a href="#contact" class="view-btn">View Contacts</a>
                 </div>
 
                 <div class="card feature-card">
                     <h3>Address</h3>
                     <p>Find my residential location and address details.</p>
-                    <button class="view-btn" data-section="address">View Address</button>
-                </div>
-
-                <!-- Introduction Card -->
-                <div class="card intro-card">
-                    <h3>Introduction</h3>
-                    <p>Welcome to my personal profile! I'm Jasmin Kate P. Sasutona, a passionate BS Information Technology student currently enrolled in section BSIT-2209. I believe in continuous learning and growth in the field of technology.</p>
-                    <p>As an IT student, I'm constantly exploring new technologies and developing skills that will help me contribute to the digital world. My journey in technology is complemented by my love for creative pursuits like music, anime, and literature.</p>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <span class="stat-number">BSIT</span>
-                            <span class="stat-label">Course</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">2209</span>
-                            <span class="stat-label">Section</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">March 28</span>
-                            <span class="stat-label">Birthday</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Me Section -->
-        <section id="about" class="content-section">
-            <header class="content-header">
-                <h2>About Me</h2>
-                <button class="back-btn" data-section="dashboard">← Back to Dashboard</button>
-            </header>
-            
-            <div class="content-grid">
-                <div class="card">
-                    <h3>Personal Details</h3>
-                    <div class="info-list">
-                        <div class="info-item">
-                            <span class="info-label">Full Name:</span>
-                            <span class="info-value">Jasmin Kate P. Sasutona</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Birthday:</span>
-                            <span class="info-value">March 28, 2006</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Gender:</span>
-                            <span class="info-value">Female</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Status:</span>
-                            <span class="info-value">Single</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h3>Education</h3>
-                    <div class="info-list">
-                        <div class="info-item">
-                            <span class="info-label">Course:</span>
-                            <span class="info-value">BS Information Technology</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Section:</span>
-                            <span class="info-value">BSIT-2209</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-label">Student ID:</span>
-                            <span class="info-value">240102249</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h3>Hobbies & Interests</h3>
-                    <div class="hobbies-list">
-                        <div class="hobby-item">
-                            <span class="hobby-icon">🎵</span>
-                            <span class="hobby-text">Listening to Music</span>
-                        </div>
-                        <div class="hobby-item">
-                            <span class="hobby-icon">🎬</span>
-                            <span class="hobby-text">Watching Anime</span>
-                        </div>
-                        <div class="hobby-item">
-                            <span class="hobby-icon">📚</span>
-                            <span class="hobby-text">Reading Comics/LN</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Info Section -->
-        <section id="contact" class="content-section">
-            <header class="content-header">
-                <h2>Contact Information</h2>
-                <button class="back-btn" data-section="dashboard">← Back to Dashboard</button>
-            </header>
-            
-            <div class="contact-grid">
-                <div class="card contact-card">
-                    <div class="contact-icon">📧</div>
-                    <h3>Email Address</h3>
-                    <p class="contact-detail">jasminkatesasutona20@gmail.com</p>
-                    <a href="mailto:jasminkatesasutona20@gmail.com" class="contact-btn">Send Email</a>
-                </div>
-
-                <div class="card contact-card">
-                    <div class="contact-icon">📱</div>
-                    <h3>Phone Number</h3>
-                    <p class="contact-detail">09319626154</p>
-                    <a href="tel:09319626154" class="contact-btn">Call Now</a>
-                </div>
-
-                <div class="card contact-card">
-                    <div class="contact-icon">💻</div>
-                    <h3>GitHub Profile</h3>
-                    <p class="contact-detail">@JAZZIK8</p>
-                    <a href="https://github.com/JAZZIK8" class="contact-btn">Visit GitHub</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Address Section -->
-        <section id="address" class="content-section">
-            <header class="content-header">
-                <h2>Address</h2>
-                <button class="back-btn" data-section="dashboard">← Back to Dashboard</button>
-            </header>
-            
-            <div class="address-card card">
-                <div class="address-icon">📍</div>
-                <div class="address-details">
-                    <h3>Residential Address</h3>
-                    <p class="address-full">119 P. Dela Cruz Street, San Bartolome, Novaliches, Quezon City</p>
+                    <a href="#address" class="view-btn">View Address</a>
+                <a href="#dashboard" class="back-btn">← Back to Dashboard</a>
+                <a href="#dashboard" class="back-btn">← Back to Dashboard</a>
+                <a href="#dashboard" class="back-btn">← Back to Dashboard</a>
                     
-                    <div class="address-breakdown">
-                        <div class="address-item">
-                            <span class="address-label">Street:</span>
-                            <span class="address-value">P. Dela Cruz Street</span>
-                        </div>
-                        <div class="address-item">
-                            <span class="address-label">Barangay:</span>
-                            <span class="address-value">San Bartolome</span>
-                        </div>
-                        <div class="address-item">
-                            <span class="address-label">District:</span>
-                            <span class="address-value">Novaliches</span>
-                        </div>
-                        <div class="address-item">
-                            <span class="address-label">City:</span>
-                            <span class="address-value">Quezon City</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <style>
+        .content-section {
+            display: none;
+        }
 
-    <script src="script.js"></script>
+        #dashboard:target,
+        #dashboard:target ~ #dashboard,
+        #dashboard {
+            display: block;
+        }
+
+        #about:target,
+        #contact:target,
+        #address:target {
+            display: block;
+        }
+        
+        #about:target ~ #dashboard,
+        #contact:target ~ #dashboard,
+        #address:target ~ #dashboard,
+        #dashboard:target ~ #about,
+        #dashboard:target ~ #contact,
+        #dashboard:target ~ #address,
+        #about:target ~ #contact,
+        #about:target ~ #address,
+        #contact:target ~ #about,
+        #contact:target ~ #address,
+        #address:target ~ #about,
+        #address:target ~ #contact {
+            display: none;
+        }
+
+        #dashboard:target ~ * .nav-item[href="#dashboard"],
+        #about:target ~ * .nav-item[href="#about"],
+        #contact:target ~ * .nav-item[href="#contact"],
+        #address:target ~ * .nav-item[href="#address"] {
+            background: linear-gradient(135deg, rgba(255, 77, 141, 0.2), rgba(157, 78, 221, 0.2));
+            border-color: #ff4d8d;
+        }
+    </style>
 </body>
 </html>
